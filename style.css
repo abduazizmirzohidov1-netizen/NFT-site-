@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+}
+
+.header img{
+    width: 60px;
+    height: 60px;
+}
+
+.header-2 h6{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: larger ;
+}
+
+.header-2 {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.button button{
+    background-color: #D400B3;
+    color: white;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 400px;
+    z-index: 1;
+    position: relative;
+}
+
+.header-1 {
+    margin: 10px 10px 10px 10px ;
+    display: flex;
+}
+
+.hero-1 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px ;
+    z-index: 1;
+}
+
+.hero-1 p {
+    font-size: 20px ;
+}
+.hero {
+    background-color: #0D0D0E;
+}
+
+.hero-1{
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.pic {
+    width: 50%;
+    height: 688px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    object-fit: cover;
+}
+.rectangle {
+    background-color: black;
+    width: 136px;
+    height: 150px;
+    position: relative;
+    left: 700px;
+    bottom:50px;
+}
+
+.rectangle-1 {
+    background-color: #0D0D0E;
+    width: 136px;
+    height: 164px;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    z-index: 1;
+}
+.start h6 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px ;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px 0;
+    bottom: 14px;
+    position: absolute;
+    background-color:#262627;
+    gap: 30px;
+}
+
+/* HERO SECTION END */
+
+/* STAT SECTION START */
+
+.lorem p {
+    font-family: "Paytone One", sans-serif;
+    color: rgb(255, 255, 255);
+}
+.stat-part {
+    background-color: #262627;
+    padding: 150px 0 ;
+}
+.lorem {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-1 span {
+    font-family: "Paytone One", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.lorem-1 {
+    display: flex;
+    gap: 100px;
+}
+.img-1{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 300px;
+}
+
+.img-2 {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    margin-top: 30px;
+}
+.img-1  img{
+    width: 469px;
+    height: 452px;
+}
+.img-2  img{
+    width: 469px;
+    height: 452px;
+}
+/* STAT SECTION END */
+/* NFT PART START*/
+.nft-part h1 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.nft-part {
+    background-color: black;
+}
+
+.nft-card h3 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+}
+
+.nft-circle {
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    width: 50px;
+    height: 50px;
+}
+
+.nft-card {
+    padding-left: 20px;
+    border: 1px solid #858586;
+    background-color: #262627;
+    width: 452px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.nft-card p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.nft-cards {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.nft-triangle {
+    width: 2px;
+    height: 140px;
+    background-color: #858586;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 47px;
+    top: 49px;
+    translate: -50% -50%;
+}
+
+.trending-part h2{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+
+.tr-p {
+    margin-bottom: 100px;
+
+}
+.trending-line p{
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+
+}
+.trending-line h4 {
+    font-family:  "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+.trending-cards {
+    display: flex;
+    gap:100px;
+}
+.trending-part {
+    justify-content: center;
+    margin-left: 150px;
+}
+.trending-line img {
+    width: 557px;
+    height: 450px;
+}
+.trend {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}   
+
+.trend .overlay {
+    position: absolute;
+    z-index: 5;
+    width: 120px;
+    height  : 120px;
+    right: 30px;
+    bottom: 30px;
+}
+.rose {
+    font-family: serif;
+    color: #D400B3;
+}
+
+.trend p {
+    display: flex;
+    justify-content: space-between;
+}
+.trending-line .cheat {
+    width: 204px;
+    height: 82px;
+}
+
+.cheat-c {
+    display: flex;
+    justify-content: right;
+}
+.popular-part {
+    background-color: #262627;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-part p {
+    font-family: serif;
+    color: white;   
+}
+
+
+
+.popular1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top:50px; ;
+}
+.popular1 img {
+    width: 304px;
+    height: 82px;
+}
+.popularr  h1{
+    font-family:"Paytone One", sans-serif ;
+    color: white;
+}
+.popularr {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:   #000000;
+}
+.follow-part {
+    background-color: #262627;
+}
+.card_ {
+    width: 389px;
+    height: 200px;
+   
+}
+.card_1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+}
+
+.follow-cards {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.follow-cards h1 {
+    font-family:  "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+.follow-us {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.button1 button{
+    background-color: #D400B3;
+    color: white;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.Big-hand h1 {
+    font-family:  "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Big-hand {
+    background-color: #000000;
+}
+.Big-hand p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.hubs img {
+    width: 123px;
+    height: 35px;
+}
+.hubs{
+    background-color: rgba(255, 255, 255, 0.2);
+
+    border: 2px solid gray;
+    width: 341px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 90px;
+}
+
+
+.hubs1 {
+    position: absolute;
+    width: 341px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+.bg-container { 
+    position: relative;
+}
+.hubs1 img{ 
+    width: 123px;
+    height: 41px;
+}
+.never-ever h1{
+    font-family:  "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.never-ever {
+    background-color:#262627;
+    border: 2px solid #151516;
+    width: 800px;
+    height: 400px;
+}
+.neveer {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    position: relative;
+    margin-top: 150px;
+}
+.enter {
+    background-color: #2d2d2e;
+    width: 584px;
+    height: 50px;
+    border: 1px solid rgb(61, 61, 61);
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    margin-top: 50px;
+}
+.enteer {
+    width: 165px;
+    height: 50px;
+    background-color: #D400B3;
+}
+.bg-hand-img {
+    width: 555px;
+    height: 733px;
+    position: absolute;
+    bottom: 300px;
+}
+.footer {
+    background-color: black;
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+}
+.footer1 img {
+    width: 80px;
+    height: 80px;
+}
+.footer1 h6{
+    font-family: serif;
+    color: white;   
+    font-size: large;
+    padding-top: 25px;
+}
+.footer1 {
+    display: flex;
+    gap: 100px;
+    font-family: sans-serif;
+}
+.insta img {
+    width: 40px;
+    height: 40px;
+}
+.insta {
+    background-color: #2d2d2e;
+    border: 1px solid #858586;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.INSTAGRAM {
+    display: flex;
+    gap: 30px;
+}
+footer {
+    background-color: black;
+    padding: 60px;
+} 
+.the_end {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}   
+
+
+
+
+
